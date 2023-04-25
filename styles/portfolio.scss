@@ -185,7 +185,7 @@ background-color: var(--bs-body-bg);
     grid-template-columns: 2fr 1fr;
     grid-gap: 2rem;
     .about-intro {
-      margin-top: 5rem;
+      margin-top: 8rem;
       margin-left: 5rem;
       h1 {
         font-size: 3rem;
@@ -198,7 +198,7 @@ background-color: var(--bs-body-bg);
       }
     }
     .about-img {
-      margin-top: 5rem;
+      margin-top: 8rem;
       width: 80%;
       height: 100%;
       img {
@@ -346,6 +346,7 @@ background-color: var(--bs-body-bg);
         justify-content: center;
         align-items: center;
         a {
+          text-decoration: none;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -438,8 +439,9 @@ background-color: var(--bs-body-bg);
     margin-left: 2rem;
     width: 100%;
     input, textarea {
+      font-size: 1.2rem;
       margin-bottom: 1rem;
-      padding: 0.8rem;
+      padding: 0.5rem 1.5rem;
       width: 100%;
       border-radius: 10px;
       border: 0;

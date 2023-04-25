@@ -165,7 +165,7 @@ section {
   grid-template-columns: 2fr 1fr;
   grid-gap: 2rem; }
   .about-con .about-intro {
-    margin-top: 5rem;
+    margin-top: 8rem;
     margin-left: 5rem; }
     .about-con .about-intro h1 {
       font-size: 3rem;
@@ -175,7 +175,7 @@ section {
     .about-con .about-intro p {
       font-size: 1.1rem; }
   .about-con .about-img {
-    margin-top: 5rem;
+    margin-top: 8rem;
     width: 80%;
     height: 100%; }
     .about-con .about-img img {
@@ -290,6 +290,7 @@ section {
       justify-content: center;
       align-items: center; }
       .portfolio .project .hover-box .port-icon a {
+        text-decoration: none;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -359,8 +360,9 @@ section {
   margin-left: 2rem;
   width: 100%; }
   .right-contact input, .right-contact textarea {
+    font-size: 1.2rem;
     margin-bottom: 1rem;
-    padding: 0.8rem;
+    padding: 0.5rem 1.5rem;
     width: 100%;
     border-radius: 10px;
     border: 0;
