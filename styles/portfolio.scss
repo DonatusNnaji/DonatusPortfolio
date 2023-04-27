@@ -202,7 +202,7 @@ background-color: var(--bs-body-bg);
     grid-template-columns: 2fr 1fr;
     grid-gap: 2rem;
     .about-intro {
-      margin-top: 8rem;
+      margin-top: 5rem;
       margin-left: 5rem;
       h1 {
         font-size: 3rem;
@@ -247,12 +247,14 @@ background-color: var(--bs-body-bg);
     p {
       font-size: 1.1rem;
       font-weight: 400;
+      margin-bottom: 0;
      }
      .progress-con {
        display: flex;
        justify-content: center;
+       margin-bottom:2rem;
        p {
-        margin-top: 0;
+        margin: 0;
 
        }
        .progress {
@@ -464,7 +466,7 @@ background-color: var(--bs-body-bg);
       border: 0;
       outline: none;
       background-color: var(--bs-gray);
-      color: var(--bs-primary-text-emphasis);
+      color: var(--bs-white);
     }
     }
     .right-contact button {
