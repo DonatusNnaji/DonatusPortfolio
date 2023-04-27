@@ -38,3 +38,17 @@ body[0].addEventListener('click' , (ev) => {
 }
 
 pageScroll();
+
+const thememode = function(){
+  const theme = document.querySelector('.theme-btn');
+  theme.addEventListener('click', function() {
+    var htmlElement = document.getElementsByTagName('html')[0];
+    if (htmlElement.getAttribute("data-bs-theme") === "light") {
+      htmlElement.setAttribute('data-bs-theme', 'dark');
+    } else {
+      htmlElement.setAttribute('data-bs-theme', 'light');
+    }
+
+  });
+}
+thememode();
