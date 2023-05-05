@@ -166,7 +166,7 @@ header .left-home {
   margin-top: 16rem;
   position: absolute;
   top: 50%;
-  left: 0;
+  left: 2%;
   /*padding-top: 10rem;*/
   font-size: 1.1rem;
   padding-left: 1rem;
@@ -193,18 +193,19 @@ header .left-home {
 header .right-home {
   position: absolute;
   top: 5%;
-  right: 3%;
-  opacity: 0.4;
+  right: 0;
+  opacity: 0.6;
   width: 50%;
   height: 50%;
-  padding-top: 5rem;
+  padding-top: 50%;
+  padding-bottom: 50%;
+  transform: translate(-5%, -50%);
   img {
     display: block;
     margin: 0 auto;
     height: auto;
     width: 100%;
-  /*  background-color: var(--bs-gray);*/
-    filter: grayscale(0%);
+    filter: grayscale(5%);
   }
 }
 
