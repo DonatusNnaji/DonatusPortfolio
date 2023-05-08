@@ -172,18 +172,21 @@ header .right-home {
   position: absolute;
   top: 5%;
   right: 0;
-  opacity: 0.6;
+  opacity: 0.8;
   width: 50%;
   height: 50%;
   padding-top: 50%;
   padding-bottom: 50%;
-  transform: translate(-5%, -50%); }
+  transform: translate(-5%, -50%);
+  transition: all 0.4s ease-out; }
   header .right-home img {
-    display: block;
-    margin: 0 auto;
+    background-color: var(--bs-body-bg);
+    /*display: block;
+    margin: 0 auto;*/
     height: auto;
     width: 100%;
-    filter: grayscale(5%); }
+    filter: grayscale(5%);
+    transition: all 0.4s ease-out; }
 
 /* ABOUT */
 .about-con {
@@ -210,6 +213,7 @@ header .right-home {
     width: 100%;
     height: 100%; }
     .about-con .about-img img {
+      opacity: 0.8;
       display: block;
       height: auto;
       width: 100%; }
@@ -275,6 +279,32 @@ header .right-home {
     text-align: center;
     font-size: 2rem;
     font-weight: 400; }
+
+.timeline-con {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem; }
+  .timeline-con h5 {
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize; }
+  .timeline-con .timeline-item {
+    position: relative;
+    border-left: 1px solid gray;
+    padding: 0 3rem; }
+    .timeline-con .timeline-item .bullet {
+      position: absolute;
+      top: 0;
+      left: -27px;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      background-color: var(--bs-success); }
+    .timeline-con .timeline-item .timeline-date {
+      width: 200px;
+      border-radius: 20px;
+      background-color: var(--bs-gray); }
 
 /* PORTFOLIO */
 .portfolio h1 {
