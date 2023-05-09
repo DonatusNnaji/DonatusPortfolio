@@ -325,6 +325,8 @@ header .right-home {
      text-align: center;
      font-size: 2rem;
      font-weight: 400;
+     margin-bottom: 5rem;
+
    }
 
  }
@@ -337,6 +339,7 @@ header .right-home {
        font-weight: 700;
        text-align: center;
        text-transform: capitalize;
+       margin-bottom: 3rem;
      }
    .timeline-item {
      position: relative;
@@ -352,6 +355,8 @@ header .right-home {
        background-color: var(--bs-success);
      }
      .timeline-date {
+       text-align: center;
+       align-self: center;
        width: 200px;
        border-radius: 20px;
        background-color: var(--bs-gray);

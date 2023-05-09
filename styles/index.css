@@ -278,7 +278,8 @@ header .right-home {
     text-transform: capitalize;
     text-align: center;
     font-size: 2rem;
-    font-weight: 400; }
+    font-weight: 400;
+    margin-bottom: 5rem; }
 
 .timeline-con {
   width: 100%;
@@ -288,7 +289,8 @@ header .right-home {
   .timeline-con h5 {
     font-weight: 700;
     text-align: center;
-    text-transform: capitalize; }
+    text-transform: capitalize;
+    margin-bottom: 3rem; }
   .timeline-con .timeline-item {
     position: relative;
     border-left: 1px solid gray;
@@ -302,6 +304,8 @@ header .right-home {
       border-radius: 50%;
       background-color: var(--bs-success); }
     .timeline-con .timeline-item .timeline-date {
+      text-align: center;
+      align-self: center;
       width: 200px;
       border-radius: 20px;
       background-color: var(--bs-gray); }
