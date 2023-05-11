@@ -144,7 +144,9 @@ header {
     grid-template-columns: 2fr 1fr;
     grid-gap: 2rem;*/
   padding-top: 5rem;
-  position: relative; }
+  position: relative;
+  background: url(./image/adam.jpg);
+  transition: all 0.4s ease-out; }
 
 header .left-home {
   margin-top: 16rem;
@@ -153,7 +155,8 @@ header .left-home {
   left: 2%;
   /*padding-top: 10rem;*/
   font-size: 1.1rem;
-  padding-left: 1rem; }
+  padding-left: 1rem;
+  transition: all -4s ease-out; }
   header .left-home h1 {
     font-size: 3rem;
     font-weight: 700;
@@ -304,10 +307,11 @@ header .right-home {
       border-radius: 50%;
       background-color: var(--bs-success); }
     .timeline-con .timeline-item .timeline-date {
+      padding: 0.5rem;
       text-align: center;
       align-self: center;
       width: 200px;
-      border-radius: 20px;
+      border-radius: 30px;
       background-color: var(--bs-gray); }
 
 /* PORTFOLIO */
@@ -337,7 +341,8 @@ header .right-home {
     .portfolio .project .image img {
       display: block;
       width: 100%;
-      height: auto; }
+      height: auto;
+      object-fit: cover; }
   .portfolio .project .hover-box {
     border-radius: 15px;
     position: absolute;

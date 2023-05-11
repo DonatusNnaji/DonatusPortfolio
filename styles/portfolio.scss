@@ -159,6 +159,9 @@ header {
   grid-gap: 2rem;*/
   padding-top: 5rem;
   position: relative;
+  background: url(./image/adam.jpg);
+  transition: all 0.4s ease-out;
+
 
 }
 
@@ -170,6 +173,7 @@ header .left-home {
   /*padding-top: 10rem;*/
   font-size: 1.1rem;
   padding-left: 1rem;
+  transition: all 0-4s ease-out;
   h1 {
     font-size: 3rem;
     font-weight: 700;
@@ -355,10 +359,11 @@ header .right-home {
        background-color: var(--bs-success);
      }
      .timeline-date {
+       padding: 0.5rem;
        text-align: center;
        align-self: center;
        width: 200px;
-       border-radius: 20px;
+       border-radius: 30px;
        background-color: var(--bs-gray);
      }
    }
@@ -398,6 +403,7 @@ header .right-home {
         display: block;
         width: 100%;
         height: auto;
+        object-fit: cover;
       }
     }
     .hover-box {
