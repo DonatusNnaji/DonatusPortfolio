@@ -18,10 +18,10 @@ body[0].addEventListener('click' , (ev) => {
  //toggle button inside body
   if(id) {
     controls.forEach((btn) => {
-    btn.classList.remove('active');
+    btn.classList.remove('activeBtn');
   })
 
-    ev.target.classList.add('active')
+    ev.target.classList.add('activeBtn')
 
     //toggle sections
 
