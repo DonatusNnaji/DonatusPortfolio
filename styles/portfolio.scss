@@ -479,15 +479,15 @@ header .right-home {
       margin-bottom: 1rem;
 
       a {
-        margin-right: .5rem;
+        margin-right: 1rem;
         text-decoration: none;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        background-color: var(--bs-teal);
+        //width: 40px;
+      //  height: 40px;
+        //border-radius: 50%;
+        //background-color: var(--bs-teal);
         span{
           display: flex;
           justify-content: center;
@@ -496,8 +496,8 @@ header .right-home {
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 1.5rem;
-            color: var(--bs-white);
+            font-size: 2rem;
+            color: --bs-primary-text-emphasis;
           }
 
           }
