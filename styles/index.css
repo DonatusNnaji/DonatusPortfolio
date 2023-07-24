@@ -111,7 +111,8 @@ section {
   align-items: center;
   overflow: hidden; }
   .cv-btn .btn-text {
-    padding: 0 2rem; }
+    padding: 0 2rem;
+    font-variant: small-caps; }
   .cv-btn .btn-icon {
     background-color: var(--bs-success);
     display: flex;
@@ -277,7 +278,7 @@ header .right-home {
   grid-gap: 2rem; }
   .timeline-con h5 {
     font-weight: 700;
-    text-align: center;
+    text-align: left;
     text-transform: capitalize;
     margin-bottom: 3rem; }
   .timeline-con .timeline-item {
@@ -376,7 +377,7 @@ header .right-home {
 
 .left-contact {
   padding-left: 3rem;
-  flex-basis: 35%;
+  flex-basis: 40%;
   margin-top: 3rem;
   font-size: 1.1rem; }
   .left-contact h1 {
@@ -408,6 +409,8 @@ header .right-home {
           align-items: center;
           font-size: 2rem;
           color: --bs-primary-text-emphasis; }
+        .left-contact .social-con a span i .github {
+          color: dark; }
 
 .right-contact {
   transform: translate(-50% -50%);

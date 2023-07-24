@@ -119,7 +119,8 @@ background-color: var(--bs-body-bg);
     align-self: flex-start;
     align-items: center;
     overflow: hidden;
-    .btn-text { padding: 0 2rem; }
+    .btn-text { padding: 0 2rem;
+    font-variant: small-caps;}
     .btn-icon {
         background-color: var(--bs-success);
         display: flex;
@@ -332,7 +333,7 @@ header .right-home {
    grid-gap: 2rem;
      h5 {
        font-weight: 700;
-       text-align: center;
+       text-align: left;
        text-transform: capitalize;
        margin-bottom: 3rem;
      }
@@ -457,7 +458,7 @@ header .right-home {
 }
   .left-contact {
     padding-left: 3rem;
-    flex-basis: 35%;
+    flex-basis: 40%;
     margin-top: 3rem;;
     font-size: 1.1rem;
     h1 {
@@ -499,6 +500,7 @@ header .right-home {
             font-size: 2rem;
             color: --bs-primary-text-emphasis;
           }
+          i .github{color: dark;}
 
           }
         }
