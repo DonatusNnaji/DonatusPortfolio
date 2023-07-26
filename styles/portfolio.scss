@@ -264,9 +264,10 @@ header .right-home {
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
     p {
-      font-size: 1.1rem;
-      font-weight: 400;
+      font-size: 1rem;
+      font-weight: 600;
       margin-bottom: 0;
+      font-variant: small-caps;
      }
      .progress-con {
        display: flex;
@@ -500,7 +501,7 @@ header .right-home {
             font-size: 2rem;
             color: --bs-primary-text-emphasis;
           }
-          i .github{color: dark;}
+         .gith{color: yellow;}
 
           }
         }

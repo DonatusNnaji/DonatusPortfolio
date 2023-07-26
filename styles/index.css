@@ -228,9 +228,10 @@ header .right-home {
   grid-template-columns: 1fr 1fr;
   grid-gap: 2rem; }
   .box-con p {
-    font-size: 1.1rem;
-    font-weight: 400;
-    margin-bottom: 0; }
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-variant: small-caps; }
   .box-con .progress-con {
     display: flex;
     justify-content: center;
@@ -409,8 +410,8 @@ header .right-home {
           align-items: center;
           font-size: 2rem;
           color: --bs-primary-text-emphasis; }
-        .left-contact .social-con a span i .github {
-          color: dark; }
+        .left-contact .social-con a span .gith {
+          color: yellow; }
 
 .right-contact {
   transform: translate(-50% -50%);
