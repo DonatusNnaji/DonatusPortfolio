@@ -538,3 +538,46 @@ header .right-home {
       background-color: var(--bs-success);
     }
   }
+  @media screen and (max-width: 767px) {
+    header{
+      display: flex;
+      flex-direction: column;
+    }
+    .about-con{
+      display: flex;
+      flex-direction: column;
+    }
+    .about-img {
+      display: none;
+    }
+    .skills .box-con {
+      display: grid;
+      grid-template-columns: 1fr;
+
+    }
+    .timeline-con{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .portfolio .portfolios {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    }
+    .Contact-con {
+      display: flex;
+      flex-direction: column;
+
+    }
+
+
+  }
+@media screen and (max-width: 1023px){
+  .skills .box-con {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+.about-img {
+  display: none;
+}
+}
