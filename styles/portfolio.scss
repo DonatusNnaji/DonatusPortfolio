@@ -128,6 +128,10 @@ background-color: var(--bs-body-bg);
         justify-content: center;
         border-radius: 50%;
         padding: 1rem;
+        i{
+          font-size: 0.5rem;
+        }
+
     }
     &::before {
         content: '';
@@ -377,12 +381,12 @@ header .right-home {
   }
 
   .portfolios {
-    /*padding: 1rem 15rem;*/
-    margin-left: 5rem;
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    width: 75%;
+    margin: 0 auto;
   }
 
   .project {
@@ -455,12 +459,12 @@ header .right-home {
 /* CONTACT */
 .Contact-con {
   display: flex;
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
   .left-contact {
     padding-left: 3rem;
     flex-basis: 40%;
-    margin-top: 3rem;;
+   margin-top: 3rem;;
     font-size: 1.1rem;
     h1 {
       font-size: 3rem;
@@ -470,9 +474,9 @@ header .right-home {
     }
     p{
       i{
-        font-size: 1.5rem;
-        color: var(--bs-teal);
-        margin-right: 1rem;
+        font-size: 1rem;
+        color: var(--bs-body-color);
+        margin-right: 0.5rem;
       }
     }
     .social-con {
@@ -486,10 +490,7 @@ header .right-home {
         display: flex;
         justify-content: center;
         align-items: center;
-        //width: 40px;
-      //  height: 40px;
-        //border-radius: 50%;
-        //background-color: var(--bs-teal);
+
         span{
           display: flex;
           justify-content: center;
@@ -499,24 +500,23 @@ header .right-home {
             justify-content: center;
             align-items: center;
             font-size: 2rem;
-            color: --bs-primary-text-emphasis;
           }
-         .gith{color: yellow;}
-
-          }
+         .gith{background-color: --bs-black;
+         color:--bs-white; }
         }
 
     }
 
   }
+}
 
   .right-contact {
     transform: translate(-50% -50%);
     flex-basis: 60%;
     margin-top: 5rem;
-    margin-left: 2rem;
-    width: 100%;
-    input, textarea {
+    margin-left: 1rem;
+    width: 80%;
+      input, textarea {
       font-size: 1.2rem;
       margin-bottom: 1rem;
       padding: 0.5rem 1.5rem;
@@ -538,15 +538,79 @@ header .right-home {
       background-color: var(--bs-success);
     }
   }
+
   @media screen and (max-width: 767px) {
+    .controls{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      top: 2%;
+      right: 50%;
+      width: 80%;
+      transform: translateX(50%);
+      //border: 1px solid black;
+      .control{
+        width: 35px;
+        height: 35px;
+      }
+    }
+    .theme-btn {
+     width: 35px;
+      height: 35px;
+      position: fixed;
+      top: 2rem;
+      right: 1.5%;
+    }
+    .btn-con {
+      margin-top: 1.5rem;
+    }
+    .cv-btn {
+      .btn-text { padding: 0 0.5rem;
+      }
+      i{
+        padding: 0rem;
+        font-size: 1.5rem;
+      }
+    }
+    section{
+      padding: 1rem 2rem;
+      margin: 0;
+    }
     header{
       display: flex;
       flex-direction: column;
+      padding-top: 0rem;
+      h1{
+        font-size: 2rem;
+        padding-top: 1rem;
+      }
+     .left-home {
+        margin-top: 1%;
+      }
+     .right-home{
+        margin-top: 1%;
+        img{
+          width: 60%;
+          display: block;
+          margin: 0 auto;
+        }
+      }
     }
     .about-con{
       display: flex;
       flex-direction: column;
+      padding-left: 1rem;
+      .about-intro {
+      margin-top: 5rem;
+      margin-left: 2rem;
+      width: 80%;
+      h1{
+        margin-bottom: 1.5rem;
+      }
+      }
     }
+
     .about-img {
       display: none;
     }
@@ -559,14 +623,24 @@ header .right-home {
       display: grid;
       grid-template-columns: 1fr;
     }
-    .portfolio .portfolios {
-    display: grid;
-    grid-template-columns: 1fr;
+    .portfolio {
+      margin-top: 5rem;
+      .portfolios {
+      display: grid;
+      grid-template-columns: 1fr;
 
+      }
     }
     .Contact-con {
       display: flex;
       flex-direction: column;
+      .left-contact{
+        margin-bottom: 2rem;
+
+      }
+      .right-contact{
+        margin-top: 2rem;
+      }
 
     }
 

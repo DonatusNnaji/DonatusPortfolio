@@ -120,6 +120,8 @@ section {
     justify-content: center;
     border-radius: 50%;
     padding: 1rem; }
+    .cv-btn .btn-icon i {
+      font-size: 0.5rem; }
   .cv-btn::before {
     content: '';
     position: absolute;
@@ -313,12 +315,12 @@ header .right-home {
   text-align: center;
   font-size: 1.1rem; }
 .portfolio .portfolios {
-  /*padding: 1rem 15rem;*/
-  margin-left: 5rem;
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr; }
+  grid-template-rows: 1fr 1fr;
+  width: 75%;
+  margin: 0 auto; }
 .portfolio .project {
   border-radius: 15px;
   background-color: gray;
@@ -374,7 +376,7 @@ header .right-home {
 /* CONTACT */
 .Contact-con {
   display: flex;
-  margin-top: 3rem; }
+  margin-top: 5rem; }
 
 .left-contact {
   padding-left: 3rem;
@@ -387,9 +389,9 @@ header .right-home {
     margin-bottom: 2rem;
     color: var(--bs-success); }
   .left-contact p i {
-    font-size: 1.5rem;
-    color: var(--bs-teal);
-    margin-right: 1rem; }
+    font-size: 1rem;
+    color: var(--bs-body-color);
+    margin-right: 0.5rem; }
   .left-contact .social-con {
     display: flex;
     margin-top: 2rem;
@@ -408,17 +410,17 @@ header .right-home {
           display: flex;
           justify-content: center;
           align-items: center;
-          font-size: 2rem;
-          color: --bs-primary-text-emphasis; }
+          font-size: 2rem; }
         .left-contact .social-con a span .gith {
-          color: yellow; }
+          background-color: --bs-black;
+          color: --bs-white; }
 
 .right-contact {
   transform: translate(-50% -50%);
   flex-basis: 60%;
   margin-top: 5rem;
-  margin-left: 2rem;
-  width: 100%; }
+  margin-left: 1rem;
+  width: 80%; }
   .right-contact input, .right-contact textarea {
     font-size: 1.2rem;
     margin-bottom: 1rem;
@@ -439,13 +441,65 @@ header .right-home {
     background-color: var(--bs-success); }
 
 @media screen and (max-width: 767px) {
+  .controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    top: 2%;
+    right: 50%;
+    width: 80%;
+    transform: translateX(50%); }
+    .controls .control {
+      width: 35px;
+      height: 35px; }
+
+  .theme-btn {
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    top: 2rem;
+    right: 1.5%; }
+
+  .btn-con {
+    margin-top: 1.5rem; }
+
+  .cv-btn .btn-text {
+    padding: 0 0.5rem; }
+  .cv-btn i {
+    padding: 0rem;
+    font-size: 1.5rem; }
+
+  section {
+    padding: 1rem 2rem;
+    margin: 0; }
+
   header {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    padding-top: 0rem; }
+    header h1 {
+      font-size: 2rem;
+      padding-top: 1rem; }
+    header .left-home {
+      margin-top: 1%; }
+    header .right-home {
+      margin-top: 1%; }
+      header .right-home img {
+        width: 60%;
+        display: block;
+        margin: 0 auto; }
 
   .about-con {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    padding-left: 1rem; }
+    .about-con .about-intro {
+      margin-top: 5rem;
+      margin-left: 2rem;
+      width: 80%; }
+      .about-con .about-intro h1 {
+        margin-bottom: 1.5rem; }
 
   .about-img {
     display: none; }
@@ -458,13 +512,19 @@ header .right-home {
     display: grid;
     grid-template-columns: 1fr; }
 
-  .portfolio .portfolios {
-    display: grid;
-    grid-template-columns: 1fr; }
+  .portfolio {
+    margin-top: 5rem; }
+    .portfolio .portfolios {
+      display: grid;
+      grid-template-columns: 1fr; }
 
   .Contact-con {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column; }
+    .Contact-con .left-contact {
+      margin-bottom: 2rem; }
+    .Contact-con .right-contact {
+      margin-top: 2rem; } }
 @media screen and (max-width: 1023px) {
   .skills .box-con {
     display: grid;
