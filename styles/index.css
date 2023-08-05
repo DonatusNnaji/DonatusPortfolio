@@ -184,14 +184,12 @@ header .right-home {
 .about-con {
   margin-bottom: 3rem;
   display: flex;
-  justify-content: center;
-  align-items: center;
   /* grid-template-columns: 2fr 1fr;
    grid-gap: 2rem;*/ }
   .about-con .about-intro {
     flex-basis: 70%;
-    margin-top: 5rem;
-    margin-left: 5rem; }
+    padding-top: 5rem;
+    padding-left: 5rem; }
     .about-con .about-intro h1 {
       font-size: 3rem;
       font-weight: 700;
@@ -376,17 +374,19 @@ header .right-home {
 /* CONTACT */
 .Contact-con {
   display: flex;
-  margin-top: 5rem; }
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem; }
 
 .left-contact {
-  padding-left: 3rem;
-  flex-basis: 40%;
-  margin-top: 3rem;
+  padding-left: 5rem;
+  flex-basis: 38%;
+  padding-top: 3rem;
   font-size: 1.1rem; }
   .left-contact h1 {
     font-size: 3rem;
     font-weight: 700;
-    margin-bottom: 2rem;
+    padding-bottom: 2rem;
     color: var(--bs-success); }
   .left-contact p i {
     font-size: 1rem;
@@ -416,10 +416,10 @@ header .right-home {
           color: --bs-white; }
 
 .right-contact {
-  transform: translate(-50% -50%);
   flex-basis: 60%;
-  margin-top: 5rem;
-  margin-left: 1rem;
+  padding-top: 5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
   width: 80%; }
   .right-contact input, .right-contact textarea {
     font-size: 1.2rem;
@@ -471,13 +471,12 @@ header .right-home {
     font-size: 1.5rem; }
 
   section {
-    padding: 1rem 2rem;
-    margin: 0; }
+    padding: 1rem 2rem; }
 
   header {
     display: flex;
     flex-direction: column;
-    padding-top: 0rem; }
+    padding-top: 1rem; }
     header h1 {
       font-size: 2rem;
       padding-top: 1rem; }
@@ -493,10 +492,10 @@ header .right-home {
   .about-con {
     display: flex;
     flex-direction: column;
-    padding-left: 1rem; }
+    justify-content: center;
+    align-items: center; }
     .about-con .about-intro {
-      margin-top: 5rem;
-      margin-left: 2rem;
+      padding: 5rem 0 2rem 0;
       width: 80%; }
       .about-con .about-intro h1 {
         margin-bottom: 1.5rem; }
@@ -506,14 +505,16 @@ header .right-home {
 
   .skills .box-con {
     display: grid;
-    grid-template-columns: 1fr; }
+    grid-template-columns: 1fr;
+    margin: 0 auto; }
 
   .timeline-con {
     display: grid;
     grid-template-columns: 1fr; }
 
   .portfolio {
-    margin-top: 5rem; }
+    padding-top: 5rem;
+    margin: 0 auto; }
     .portfolio .portfolios {
       display: grid;
       grid-template-columns: 1fr; }
@@ -522,9 +523,11 @@ header .right-home {
     display: flex;
     flex-direction: column; }
     .Contact-con .left-contact {
-      margin-bottom: 2rem; }
+      margin: 0px;
+      padding: 2rem 0px; }
     .Contact-con .right-contact {
-      margin-top: 2rem; } }
+      margin-top: 0rem;
+      padding-left: 0.5; } }
 @media screen and (max-width: 1023px) {
   .skills .box-con {
     display: grid;
