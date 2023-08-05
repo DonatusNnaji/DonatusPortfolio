@@ -236,7 +236,7 @@ header .right-home {
     }
     .about-img {
       flex-basis: 25%;
-      //margin-top: 5rem;
+      margin-top: 8rem;
       width: 100%;
       height: 100%;
       img {
@@ -461,12 +461,12 @@ header .right-home {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 3rem;
+  //padding-top: 3rem;
 }
   .left-contact {
    padding-left: 5rem;
    flex-basis: 38%;
-   padding-top: 3rem;;
+   padding-top: 0rem;;
    font-size: 1.1rem;
     h1 {
       font-size: 3rem;
@@ -515,7 +515,7 @@ header .right-home {
   .right-contact {
     //transform: translate(-50% -50%);
     flex-basis: 60%;
-    padding-top: 5rem;
+    padding-top: 8rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
     width: 80%;
@@ -623,7 +623,6 @@ header .right-home {
     .skills .box-con {
       display: grid;
       grid-template-columns: 1fr;
-      margin: 0 auto;
 
     }
     .timeline-con{
