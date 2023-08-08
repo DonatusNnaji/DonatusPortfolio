@@ -369,6 +369,7 @@ header .right-home {
 /* PORTFOLIO */
 .portfolio {
   h1 {
+    padding-bottom: 2rem;
     font-size: 3rem;
     font-weight: 700;
     color: var(--bs-success);
@@ -630,7 +631,7 @@ header .right-home {
       grid-template-columns: 1fr;
     }
     .portfolio {
-      padding-top: 5rem;
+      padding-top: 6rem;
       margin: 0 auto;
       .portfolios {
       display: grid;
@@ -644,7 +645,8 @@ header .right-home {
 
       .left-contact{
         margin: 0px;
-        padding: 2rem 0px;
+        padding-top: 5rem ;
+        padding-left: 0rem;
       }
       .right-contact{
       margin-top: 0rem;
