@@ -499,6 +499,7 @@ header .right-home {
           justify-content: center;
           align-items: center;
           i {
+            color: var(--bs-body-color);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -651,6 +652,7 @@ header .right-home {
       .right-contact{
       margin-top: 0rem;
       padding-left: 0.5;
+      padding-top: 3rem;
       }
 
     }

@@ -408,6 +408,7 @@ header .right-home {
         justify-content: center;
         align-items: center; }
         .left-contact .social-con a span i {
+          color: var(--bs-body-color);
           display: flex;
           justify-content: center;
           align-items: center;
@@ -528,7 +529,8 @@ header .right-home {
       padding-left: 0rem; }
     .Contact-con .right-contact {
       margin-top: 0rem;
-      padding-left: 0.5; } }
+      padding-left: 0.5;
+      padding-top: 3rem; } }
 @media screen and (max-width: 1023px) {
   .skills .box-con {
     display: grid;
