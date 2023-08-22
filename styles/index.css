@@ -491,6 +491,13 @@ header .right-home {
         display: block;
         margin: 0 auto; }
 
+  .about {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+
   .about-con {
     display: flex;
     flex-direction: column;
@@ -502,12 +509,12 @@ header .right-home {
       .about-con .about-intro h1 {
         margin-bottom: 1.5rem; }
 
-  .about-img {
-    display: none; }
-
-  .skills .box-con {
-    display: grid;
-    grid-template-columns: 1fr; }
+  .skills {
+    width: 100%;
+    margin-left: 1rem; }
+    .skills .box-con {
+      display: grid;
+      grid-template-columns: 1fr; }
 
   .timeline-con {
     display: grid;
@@ -534,9 +541,6 @@ header .right-home {
 @media screen and (max-width: 1023px) {
   .skills .box-con {
     display: grid;
-    grid-template-columns: 1fr; }
-
-  .about-img {
-    display: none; } }
+    grid-template-columns: 1fr; } }
 
 /*# sourceMappingURL=index.css.map */

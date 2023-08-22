@@ -602,6 +602,13 @@ header .right-home {
         }
       }
     }
+    .about {
+      width: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
     .about-con{
       display: flex;
       flex-direction: column;
@@ -620,11 +627,16 @@ header .right-home {
     }
 
     .about-img {
-      display: none;
+
     }
-    .skills .box-con {
-      display: grid;
-      grid-template-columns: 1fr;
+    .skills{
+      width: 100%;
+      margin-left: 1rem;
+      .box-con {
+        display: grid;
+        grid-template-columns: 1fr;
+
+      }
 
     }
     .timeline-con{
@@ -654,10 +666,7 @@ header .right-home {
       padding-left: 0.5;
       padding-top: 3rem;
       }
-
     }
-
-
   }
 @media screen and (max-width: 1023px){
   .skills .box-con {
@@ -665,6 +674,6 @@ header .right-home {
     grid-template-columns: 1fr;
   }
 .about-img {
-  display: none;
+
 }
 }
