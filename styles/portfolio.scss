@@ -241,6 +241,7 @@ header .right-home {
       height: 100%;
       img {
         //opacity: 0.8;
+        margin: 0 auto;
         display: block;
         height: auto;
         width: 100%;}
@@ -624,11 +625,25 @@ header .right-home {
         margin-bottom: 1.5rem;
       }
       }
+      .about-img {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0rem;
+
+        img{
+          margin-top: 1rem;
+          width: 60%;
+          height: auto;
+          display: block;
+          margin: 0 auto;
+        }
+      }
     }
 
-    .about-img {
 
-    }
     .skills{
       width: 100%;
       margin-left: 1rem;
