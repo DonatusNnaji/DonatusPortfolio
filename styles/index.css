@@ -220,9 +220,10 @@ header .right-home {
   .skills .sub-title {
     text-transform: capitalize;
     font-size: 2rem;
-    font-weight: 400;
+    font-weight: 600;
     text-align: center;
-    margin-bottom: 3rem; }
+    margin-bottom: 3rem;
+    font-variant: small-caps; }
 
 .box-con {
   width: 100%;
@@ -271,8 +272,9 @@ header .right-home {
     text-transform: capitalize;
     text-align: center;
     font-size: 2rem;
-    font-weight: 400;
-    margin-bottom: 5rem; }
+    font-weight: 600;
+    margin-bottom: 5rem;
+    font-variant: small-caps; }
 
 .timeline-con {
   width: 100%;
@@ -525,14 +527,22 @@ header .right-home {
 
   .skills {
     width: 100%;
-    margin-left: 1rem; }
+    margin-left: 1.5rem;
+    margin-right: 1.5rem; }
+    .skills h3 {
+      text-align: justify; }
     .skills .box-con {
       display: grid;
       grid-template-columns: 1fr; }
 
-  .timeline-con {
-    display: grid;
-    grid-template-columns: 1fr; }
+  .timeline {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem; }
+    .timeline h3 {
+      text-align: center; }
+    .timeline .timeline-con {
+      display: grid;
+      grid-template-columns: 1fr; }
 
   .portfolio {
     padding-top: 6rem;
