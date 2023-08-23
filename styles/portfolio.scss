@@ -676,6 +676,13 @@ header .right-home {
     .portfolio {
       padding-top: 6rem;
       margin: 0 auto;
+      h1{
+        padding-bottom: 0.5rem;
+      }
+      p{
+        font-weight: 400;
+        font-variant: small-caps;
+      }
       .portfolios {
       display: grid;
       grid-template-columns: 1fr;
@@ -690,6 +697,9 @@ header .right-home {
         margin: 0px;
         padding-top: 5rem ;
         padding-left: 0rem;
+        h1{
+          padding-bottom: 1rem;
+        }
       }
       .right-contact{
       margin-top: 0rem;
@@ -700,8 +710,8 @@ header .right-home {
   }
 @media screen and (max-width: 1023px){
   .skills .box-con {
-    display: grid;
-    grid-template-columns: 1fr;
+  //  display: grid;
+  //  grid-template-columns: 1fr;
   }
 .about-img {
 
