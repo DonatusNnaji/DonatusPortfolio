@@ -435,7 +435,7 @@ header .right-home {
     border: 0;
     outline: none;
     background-color: var(--bs-gray);
-    color: var(--bs-white); }
+    color: gold; }
 
 .right-contact button {
   width: 30%;
@@ -527,8 +527,8 @@ header .right-home {
 
   .skills {
     width: 100%;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem; }
+    margin-left: 2rem;
+    margin-right: 2rem; }
     .skills h3 {
       text-align: justify; }
     .skills .box-con {
@@ -536,8 +536,8 @@ header .right-home {
       grid-template-columns: 1fr; }
 
   .timeline {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem; }
+    margin-left: 2rem;
+    margin-right: 2rem; }
     .timeline h3 {
       text-align: center; }
     .timeline .timeline-con {
