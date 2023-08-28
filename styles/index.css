@@ -569,5 +569,24 @@ header .right-home {
       margin-top: 0rem;
       padding-left: 0.5;
       padding-top: 3rem; } }
+@media screen and (max-width: 1023px) {
+  .about-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .about-con .about-img {
+      width: 70%;
+      height: 70%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 0rem; }
+      .about-con .about-img img {
+        margin-top: 1rem;
+        width: 60%;
+        height: auto;
+        display: block;
+        margin: 0 auto; } }
 
 /*# sourceMappingURL=index.css.map */

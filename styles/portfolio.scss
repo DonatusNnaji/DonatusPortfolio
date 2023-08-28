@@ -709,6 +709,29 @@ header .right-home {
     }
   }
 @media screen and (max-width: 1023px){
+  .about-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  .about-img {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0rem;
+
+    img{
+      margin-top: 1rem;
+      width: 60%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      }
+     }
+    }
   .skills .box-con {
   //  display: grid;
   //  grid-template-columns: 1fr;
