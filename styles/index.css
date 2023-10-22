@@ -329,10 +329,8 @@ header .right-home {
   background-color: gray;
   position: relative; }
   .portfolio .project .image {
-    width: 100%;
-    height: auto;
     border-radius: 15px;
-    border: 0.1px solid var(--bs-success); }
+    border: 0.5px solid var(--bs-success); }
     .portfolio .project .image img {
       margin: 0 auto;
       border-radius: 15px;
