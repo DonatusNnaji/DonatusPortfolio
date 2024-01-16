@@ -534,7 +534,7 @@ header .right-home {
     align-items: center; }
     .about-con .about-intro {
       padding-top: 5rem;
-      padding-left: 1rem;
+      padding-left: 0rem;
       margin-bottom: 0; }
       .about-con .about-intro h1 {
         margin-bottom: 1.5rem; }
