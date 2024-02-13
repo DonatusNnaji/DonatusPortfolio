@@ -143,38 +143,35 @@ header {
   padding-top: 5rem;
   position: relative;
   transition: all 0.4s ease-out;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: auto; }
 
-header .left-home {
+.fpage .left-home {
   flex-basis: 65%;
   margin-top: 5%;
   padding-top: 5rem;
   font-size: 1.2rem;
   padding-left: 1rem;
   transition: all 0.4s ease-out; }
-  header .left-home h1 {
+  .fpage .left-home h1 {
     font-size: 2rem;
     font-weight: 700;
     color: var(--bs-success); }
-  header .left-home .namebox .myname {
+  .fpage .left-home .namebox .myname {
     font-size: 1.5rem;
     color: var(--bs-success);
     font-weight: 700; }
-  header .left-home .namebox .post {
+  .fpage .left-home .namebox .post {
     font-size: 0.95rem;
     font-weight: 600;
     font-variant: small-caps; }
-  header .left-home p {
+  .fpage .left-home p {
     font-size: 0.95rem; }
 
-header .right-home {
+.fpage .right-home {
   margin-top: 5%;
   flex-basis: 30%;
   transition: all 0.4s ease-out; }
-  header .right-home img {
+  .fpage .right-home img {
     background-color: var(--bs-body-bg);
     height: auto;
     width: 100%;
@@ -231,7 +228,7 @@ header .right-home {
   grid-template-columns: 1fr 1fr;
   grid-gap: 2rem; }
   .box-con p {
-    font-size: 1rem;
+    font-size: 0.7rem;
     font-weight: 600;
     margin-bottom: 0;
     font-variant: small-caps; }
@@ -243,7 +240,7 @@ header .right-home {
       margin: 0; }
     .box-con .progress-con .progress {
       margin-left: 0.5rem;
-      margin-bottom: 0;
+      margin-bottom: 0rem;
       width: 100%;
       /*color: var(--bs-success);*/
       position: relative; }
