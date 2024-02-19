@@ -121,7 +121,7 @@ background-color: var(--bs-body-bg);
     overflow: hidden;
     .btn-text { padding: 0 2rem;
     font-variant: small-caps;}
-    .btn-icon {
+      .btn-icon {
         background-color: var(--bs-success);
         display: flex;
         align-items: center;
@@ -612,15 +612,18 @@ header {
     padding: 1rem 2rem;
   }
   header{
+    margin-top: 1%;
+  }
+  .fpage{
     display: flex;
     flex-direction: column;
-    padding-top: 1rem;
     h1{
       font-size: 2rem;
       padding-top: 1rem;
     }
    .left-home {
       margin-top: 1%;
+      padding-top: 1rem;
     }
    .right-home{
       margin-top: 1%;
