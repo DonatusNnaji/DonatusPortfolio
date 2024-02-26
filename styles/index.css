@@ -283,6 +283,7 @@ header {
   margin: 0;
 }
 .box-con .progress-con .progress {
+  font-size: 0.1;
   margin-left: 0.5rem;
   margin-bottom: 0rem;
   width: 100%;
