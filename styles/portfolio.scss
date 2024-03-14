@@ -263,20 +263,17 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
-    p {
+    .box p{
       font-size: 0.7rem;
-      font-weight: 600;
+      font-weight: 200;
+      font-style: italic;
       margin-bottom: 0;
       font-variant: small-caps;
      }
      .progress-con {
        display: flex;
        justify-content: center;
-       margin-bottom:2rem;
-       p {
-        margin: 0;
-
-       }
+       margin-bottom: 2rem;
        .progress {
          font-size: 0.1;
          margin-left: 0.5rem;

@@ -268,9 +268,10 @@ header {
   grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;
 }
-.box-con p {
+.box-con .box p {
   font-size: 0.7rem;
-  font-weight: 600;
+  font-weight: 200;
+  font-style: italic;
   margin-bottom: 0;
   font-variant: small-caps;
 }
@@ -278,9 +279,6 @@ header {
   display: flex;
   justify-content: center;
   margin-bottom: 2rem;
-}
-.box-con .progress-con p {
-  margin: 0;
 }
 .box-con .progress-con .progress {
   font-size: 0.1;
@@ -474,6 +472,7 @@ header {
 }
 .left-contact .social-con {
   display: flex;
+  justify-self: center;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
